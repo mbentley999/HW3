@@ -13,12 +13,14 @@ h1{color: red;}
 h3{color: maroon; font-size: 24px; text-align: center;}
 h4{color: black;}
 
-/*.resume{
-	text-align: left;
-	background-color: white;
-	color: black;
+.buttons{
+	text-align: center;
+	background-color: black;
 	border-style: solid;
-	border-color: maroon;
-	border-width: 4px;
-	padding: 10px;
-}*/
+	border-color: green;
+	border-width: 2px;
+	padding-left: 50px;
+        padding-right: 50px;
+        margin-left: 120px;
+        margin-right: 680px;
+}

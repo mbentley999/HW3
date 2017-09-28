@@ -14,7 +14,7 @@
         <link rel="stylesheet" type="text/css" href="zztyle.css"/>
     </head>
     <body>
-        <h1>Salary Calculator</h1>
+        <h1>Salary Calculator<hr></h1>
         
         <form name="salcalcform" action="results.jsp" method="post">
             <table>
@@ -40,8 +40,11 @@
                     </tr>
                 </tbody>
             </table>
+            
+            <div class="buttons"> 
             <input type="reset" value="Clear" id="clear">
             <input type="submit" value="Submit" id="submit">
+            </div>
             
         </form>
         
