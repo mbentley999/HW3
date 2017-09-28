@@ -18,32 +18,32 @@
         
         <form name="salcalcform" action="results.jsp" method="post">
             
-            <table>
+            <table border="1">
                 <tbody>
                     <tr>
                         <td>Hours Worked:</td>
-                        <td><input type="text" name="time" value="" size="50"></td>
+                        <td><input type="text" name="time" value="" size="20" required></td>
                     </tr>
                     
                     <tr>
                         <td>Hourly Pay:</td>
-                        <td><input type="text" name="hourly" value="" size="50"></td>
+                        <td><input type="text" name="hourly" value="" size="20" required></td>
                     </tr>
                     
                     <tr>
                         <td>Pre-Tax Deduct:</td>
-                        <td><input type="text" name="prtdeduct" value="" size="50"></td>
+                        <td><input type="text" name="prtdeduct" value="" size="20" required></td>
                     </tr>
                     
                     <tr>
                         <td>Post-Tax Deduct:</td>
-                        <td><input type="text" name="pstdeduct" value="" size="50"></td>
+                        <td><input type="text" name="pstdeduct" value="" size="20" required></td>
                     </tr>
                 </tbody>
             </table>
             
             
-            <div class="buttons"> 
+            <div class="submitres"> 
             <input type="reset" value="Clear" id="clear">
             <input type="submit" value="Submit" id="submit">
             </div>

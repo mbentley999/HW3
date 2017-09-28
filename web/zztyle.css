@@ -9,24 +9,20 @@ and open the template in the editor.
 */
 
 body{color: white; background-color: black;}
-h1{color: red;}
-h3{color: maroon; font-size: 24px; text-align: center;}
-h4{color: black;}
+h1{color: red; font:sans-serif}
 
-.table{
-	text-align: center;
+.submitres{
+	text-align: left;
 	background-color: black;
 	border-style: solid;
 	border-color: green;
 	border-width: 2px;
-	padding-left: 50px;
-        padding-right: 50px;
         margin-left: 120px;
-        margin-right: 680px;
+        margin-right: 120px;
 }
 
 .buttons{
-	text-align: center;
+	text-align: left;
 	background-color: black;
 	border-style: solid;
 	border-color: green;
