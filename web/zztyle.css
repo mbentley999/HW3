@@ -13,7 +13,7 @@ h1{color: red;}
 h3{color: maroon; font-size: 24px; text-align: center;}
 h4{color: black;}
 
-.buttons{
+.table{
 	text-align: center;
 	background-color: black;
 	border-style: solid;
@@ -24,3 +24,13 @@ h4{color: black;}
         margin-left: 120px;
         margin-right: 680px;
 }
+
+.buttons{
+	text-align: center;
+	background-color: black;
+	border-style: solid;
+	border-color: green;
+	border-width: 2px;
+	padding-left: 50px;
+        padding-right: 50px;
+}    

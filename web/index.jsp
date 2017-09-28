@@ -17,6 +17,7 @@
         <h1>Salary Calculator<hr></h1>
         
         <form name="salcalcform" action="results.jsp" method="post">
+            
             <table>
                 <tbody>
                     <tr>
@@ -40,6 +41,7 @@
                     </tr>
                 </tbody>
             </table>
+            
             
             <div class="buttons"> 
             <input type="reset" value="Clear" id="clear">
